@@ -1,0 +1,39 @@
+extends base.pug
+
+block scripts 
+    script(src="/static/index.js")
+
+block style
+    style
+      include ../static/style.css
+block content 
+    section#introSection 
+      div Welcome to Aniket's Dance Academy 
+      div.small Eat Sleep Dance Repeat
+    section#missionSection 
+      h2 Our Mission   
+      div.card
+        h3 Dance Perfection
+        div.card-box
+          div.card-img 
+            img(src="/static/mj.png", alt="MJ")
+          div.card-content 
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. At accusamus delectus a!
+      div.card
+        h3 Dance the way you like
+        div.card-box
+          div.card-img 
+            img(src="/static/download.png", alt="MJ")
+          div.card-content 
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. At accusamus delectus a!
+      div.card
+        h3 Expert Teching 
+        div.card-box
+          div.card-img 
+            img(src="/static/pole.png", alt="MJ")
+          div.card-content 
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. At accusamus delectus a!
+
+    section#sponsorSection 
+      h3 Our Sponsor  
+

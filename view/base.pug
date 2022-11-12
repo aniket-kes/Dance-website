@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    title Aniket's Dance Academy
+    block scripts
+    block style 
+  body
+     nav#navbar
+      ul
+        div#logo
+          img(src="/static/logo.png", alt="Aniket's Academy")
+          | ADA
+        li #[a(href="/") Home] 
+        li #[a(href="/") Services ]
+        li #[a(href="/contact") Contact us ]
+        li #[a(href="/") Class Info ]
+        li #[a(href="/") About us ]
+     block content
+     footer#footer 
+        | Copyright © 2022 AniketAcademy.com | All Rights Reserved
